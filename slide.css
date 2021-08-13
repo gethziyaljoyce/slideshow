@@ -1,0 +1,47 @@
+body{
+    background-color:burlywood;
+}
+
+
+
+.container{
+    max-height: 200px;
+    max-width: 200px;
+    margin:auto;
+    position:relative;
+    padding-top: 100px;
+
+}
+.backward{
+    position: absolute;
+    top: 70%;
+    }
+.forward{
+        position: absolute;
+        top: 70%;
+        left: 310px;
+    }
+    #img{
+        width:20rem;
+        height:20rem;
+        border-radius: 10%;
+        transition:  all .1s ease-in-out;
+        animation-duration: 2s;
+        animation-name:fade ;
+         animation-iteration-count:infinite ;
+        
+    }
+    
+    #img:hover{
+        transform: scale(1.1);
+        animation-play-state: paused;
+    }
+    .fa-chevron-left ,.fa-chevron-right{
+        cursor: pointer;
+        color: rgb(100, 104, 104);
+        font-size:medium;
+        width:4rem;
+    }
+    .fa-chevron-left:hover ,.fa-chevron-right:hover{
+        background-color: rgb(49, 43, 43);
+    }
