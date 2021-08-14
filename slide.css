@@ -29,7 +29,6 @@ body{
     
     #img:hover{
         transform: scale(1.1);
-        animation-play-state: paused;
     }
     .fa-chevron-left ,.fa-chevron-right{
         cursor: pointer;
