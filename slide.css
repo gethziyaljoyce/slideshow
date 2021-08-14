@@ -1,0 +1,42 @@
+body{
+    background-color:burlywood;
+}
+
+
+
+.container{
+    max-height: 200px;
+    max-width: 200px;
+    margin:auto;
+    position:relative;
+    padding-top: 100px;
+
+}
+.backward{
+    position: absolute;
+    top: 70%;
+    }
+.forward{
+        position: absolute;
+        top: 70%;
+        left: 310px;
+    }
+    #img{
+        width:20rem;
+        height:20rem;
+        border-radius: 10%;
+       }
+    
+    #img:hover{
+        transform: scale(1.1);
+        animation-play-state: paused;
+    }
+    .fa-chevron-left ,.fa-chevron-right{
+        cursor: pointer;
+        color: black;
+        font-size:medium;
+        width:0.5rem;
+    }
+    .fa-chevron-left:hover ,.fa-chevron-right:hover{
+        background-color: rgb(49, 43, 43);
+    }
